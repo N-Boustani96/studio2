@@ -1,0 +1,882 @@
+﻿Log file open, 11/14/16 20:40:42
+LogInit:Display: Running engine for game: TestLevel
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-973653404) SRandInit(-973653404).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.073098
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3142249
+LogInit: Engine Version: 4.13.1-3142249+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3142249
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Sep 28 2016 02:12:12
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.14-09.40.42:978][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.14-09.40.42:978][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.14-09.40.42:988][  0]LogInit: Computer: DESKTOP-S5PC0VV
+[2016.11.14-09.40.42:988][  0]LogInit: User: Bill
+[2016.11.14-09.40.42:988][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.14-09.40.42:988][  0]LogInit: High frequency timer resolution =3.117186 MHz
+[2016.11.14-09.40.42:988][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.11.14-09.40.42:988][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.14-09.40.42:988][  0]LogMemory: Process Physical Memory: 255.43 MB used, 255.43 MB peak
+[2016.11.14-09.40.42:988][  0]LogMemory: Process Virtual Memory: 259.82 MB used, 259.82 MB peak
+[2016.11.14-09.40.42:988][  0]LogMemory: Physical Memory: 4173.96 MB used, 16307.59 MB total
+[2016.11.14-09.40.42:988][  0]LogMemory: Virtual Memory: 622.34 MB used, 134217728.00 MB total
+[2016.11.14-09.40.43:012][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.14-09.40.43:511][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.14-09.40.43:536][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 380 Series' (Feature Level 11_0)
+[2016.11.14-09.40.43:536][  0]LogD3D11RHI:       4072/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2016.11.14-09.40.43:537][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.14-09.40.43:537][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.14-09.40.43:537][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.14-09.40.43:541][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.14-09.40.43:541][  0]LogD3D11RHI:     GPU DeviceId: 0x6939 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.14-09.40.43:541][  0]LogWindows: EnumDisplayDevices:
+[2016.11.14-09.40.43:541][  0]LogWindows:    0. 'AMD Radeon (TM) R9 380 Series' (P:1 D:1)
+[2016.11.14-09.40.43:541][  0]LogWindows:    1. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2016.11.14-09.40.43:541][  0]LogWindows:    2. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2016.11.14-09.40.43:541][  0]LogWindows:    3. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2016.11.14-09.40.43:541][  0]LogWindows:    4. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2016.11.14-09.40.43:542][  0]LogWindows:    5. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2016.11.14-09.40.43:542][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2016.11.14-09.40.43:542][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 380 Series
+[2016.11.14-09.40.43:542][  0]LogD3D11RHI:   Driver Version: Crimson 16.10.1 (internal:21.19.151.3, unified:21.19.151.3)
+[2016.11.14-09.40.43:542][  0]LogD3D11RHI:      Driver Date: 10-4-2016
+[2016.11.14-09.40.43:542][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.14-09.40.43:557][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.14-09.40.43:568][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.11.14-09.40.43:568][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Intermediate/Shaders/WorkingDirectory/3296/).
+[2016.11.14-09.40.43:569][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bill/AppData/Local/Temp/UnrealShaderWorkingDir/FB115D624696A0DBD2905B85E3C63C01/'.
+[2016.11.14-09.40.43:569][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.14-09.40.44:376][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.14-09.40.44:384][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.14-09.40.44:392][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.14-09.40.44:400][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.14-09.40.44:407][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.14-09.40.44:413][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.14-09.40.44:418][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.14-09.40.44:425][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.14-09.40.44:430][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.14-09.40.44:436][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.14-09.40.44:442][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.14-09.40.44:454][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.14-09.40.44:454][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.14-09.40.44:455][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.14-09.40.44:474][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.14-09.40.44:480][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.14-09.40.44:486][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.14-09.40.44:492][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.14-09.40.44:497][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.14-09.40.44:503][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.14-09.40.44:503][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.14-09.40.44:589][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.14-09.40.44:643][  0]LogDerivedDataCache: Loaded boot cache 0.05s 62MB C:/Users/Bill/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.14-09.40.44:643][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bill/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.11.14-09.40.44:643][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.14-09.40.44:643][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.14-09.40.44:643][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.14-09.40.44:643][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.14-09.40.44:658][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.14-09.40.44:669][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bill/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.14-09.40.44:836][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.14-09.40.44:838][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.14-09.40.44:924][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.14-09.40.44:924][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.14-09.40.44:924][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.14-09.40.44:984][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.14-09.40.45:267][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: testlevel, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2836260933
+[2016.11.14-09.40.45:302][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
+[2016.11.14-09.40.45:326][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.021565 seconds
+[2016.11.14-09.40.45:331][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.11.14-09.40.45:331][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2016.11.14-09.40.45:331][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.14-09.40.45:340][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.14-09.40.45:525][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.14-09.40.45:525][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.14-09.40.46:068][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.11.14-09.40.46:089][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.14-09.40.46:329][  0]SourceControl: Info Source control is disabled
+[2016.11.14-09.40.46:367][  0]SourceControl: Info Source control is disabled
+[2016.11.14-09.40.46:377][  0]SourceControl: Info Source control is disabled
+[2016.11.14-09.40.46:386][  0]SourceControl: Info Source control is disabled
+[2016.11.14-09.40.46:684][  0]LogEngine: Initializing Engine...
+[2016.11.14-09.40.46:685][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.11.14-09.40.46:814][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.14-09.40.46:822][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.14-09.40.46:833][  0]LogInit: FAudioDevice initialized.
+[2016.11.14-09.40.46:858][  0]LogDerivedDataCache: Saved boot cache 0.03s 62MB C:/Users/Bill/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.14-09.40.46:864][  0]LogInit: Texture streaming: Enabled
+[2016.11.14-09.40.46:888][  0]LogInit: Transaction tracking system initialized
+[2016.11.14-09.40.46:914][  0]BlueprintLog: New page: Editor Load
+[2016.11.14-09.40.46:998][  0]LocalizationService: Info Localization service is disabled
+[2016.11.14-09.40.47:076][  0]LogConsoleResponse:Display: 
+[2016.11.14-09.40.47:177][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.14-09.40.47:177][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.14-09.40.47:349][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bill/Desktop/The-Deep-West/TestLevel/Content/' took 0.01s
+[2016.11.14-09.40.47:349][  0]SourceControl: Info Source control is disabled
+[2016.11.14-09.40.47:349][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.14-09.40.47:350][  0]LightingResults: New page: Lighting Build
+[2016.11.14-09.40.47:352][  0]MapCheck: New page: Map Check
+[2016.11.14-09.40.47:353][  0]LightingResults: New page: Lighting Build
+[2016.11.14-09.40.47:584][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.11.14-09.40.47:596][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.14-09.40.47:596][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.14-09.40.47:629][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.021ms to complete.
+[2016.11.14-09.40.47:629][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.280
+[2016.11.14-09.40.47:745][  0]LogCollectionManager: Loaded 0 collections in 0.002295 seconds
+[2016.11.14-09.40.47:785][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/Collections/' took 0.01s
+[2016.11.14-09.40.47:785][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Developers/Bill/Collections/' took 0.01s
+[2016.11.14-09.40.47:785][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Collections/' took 0.01s
+[2016.11.14-09.40.47:785][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.11.14-09.40.47:793][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2142 classes and 417 folders.
+[2016.11.14-09.40.47:797][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.14-09.40.47:797][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.14-09.40.47:797][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.11.14-09.40.47:802][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.14-09.40.47:837][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.14-09.40.47:850][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.14-09.40.47:856][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.14-09.40.47:883][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.14-09.40.47:883][  0]LogLoad: (Engine Initialization) Total time: 5.78 seconds
+[2016.11.14-09.40.47:883][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2016.11.14-09.40.47:883][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.14-09.40.47:883][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.14-09.40.47:892][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.14-09.40.47:892][  0]LogOcInput: OculusInput pre-init called
+[2016.11.14-09.40.47:923][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.14-09.40.48:062][  0]LogRenderer: Reallocating scene render targets to support 900x444 (Frame:2).
+[2016.11.14-09.40.48:149][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Bill/Desktop/The-Deep-West/TestLevel/Content/' took 0.25s
+[2016.11.14-09.40.48:161][  1]LogAssetRegistry: Asset discovery search completed in 2.8813 seconds
+[2016.11.14-09.40.48:161][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.14-09.40.48:161][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2016.11.14-09.41.28:219][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0053_1_S.png)
+[2016.11.14-09.41.28:263][804]LogTexture:Display: Building textures: NaturePlants0053_1_S (BGRA8)
+[2016.11.14-09.41.28:355][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\Ornamental-Grass-Texture-41.jpg)
+[2016.11.14-09.41.28:498][804]LogTexture:Display: Building textures: Ornamental-Grass-Texture-41 (BGRA8)
+[2016.11.14-09.41.28:800][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\Ornamental-Grass-Texture-41-Alpha.jpg)
+[2016.11.14-09.41.28:905][804]LogTexture:Display: Building textures: Ornamental-Grass-Texture-41-Alpha (BGRA8)
+[2016.11.14-09.41.29:111][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\seamless_tileable_grass_texture_by_demolitiondan-d4u41a9.jpg)
+[2016.11.14-09.41.29:146][804]LogTexture:Display: Building textures: seamless_tileable_grass_texture_by_demolitiondan-d4u41a9 (AutoDXT)
+[2016.11.14-09.41.30:263][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\seamless-grass-texture-2.jpg)
+[2016.11.14-09.41.30:314][804]LogTexture:Display: Building textures: seamless-grass-texture-2 (AutoDXT)
+[2016.11.14-09.41.31:729][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\tex_grass_001.jpg)
+[2016.11.14-09.41.31:868][804]LogTexture:Display: Building textures: tex_grass_001 (AutoDXT)
+[2016.11.14-09.41.37:735][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\4396217-213470-leaf-texture.jpg)
+[2016.11.14-09.41.37:780][804]LogTexture:Display: Building textures: 4396217-213470-leaf-texture (BGRA8)
+[2016.11.14-09.41.37:797][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\Branches0028_1_M.png)
+[2016.11.14-09.41.37:849][804]LogTexture:Display: Building textures: Branches0028_1_M (BGRA8)
+[2016.11.14-09.41.38:039][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\Branches0029_1_M.png)
+[2016.11.14-09.41.38:090][804]LogTexture:Display: Building textures: Branches0029_1_M (BGRA8)
+[2016.11.14-09.41.38:262][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\Branches0032_1_M.png)
+[2016.11.14-09.41.38:297][804]LogTexture:Display: Building textures: Branches0032_1_M (BGRA8)
+[2016.11.14-09.41.38:419][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\Branches0034_1_S.png)
+[2016.11.14-09.41.38:431][804]LogTexture:Display: Building textures: Branches0034_1_S (BGRA8)
+[2016.11.14-09.41.38:469][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fst_6886fy74d05.jpg)
+[2016.11.14-09.41.38:478][804]LogTexture:Display: Building textures: fst_6886fy74d05 (BGRA8)
+[2016.11.14-09.41.38:502][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(1a).jpg)
+[2016.11.14-09.41.38:556][804]Error: Texture import failed
+[2016.11.14-09.41.43:396][804]LogAssetTools:Warning: Failed to import 'C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(1a).jpg'. Failed to create asset '/Game/Foliage/fzm-Ornamental-Grass-Blade-Texture-_1a_'.
+Please see Output Log for details.
+[2016.11.14-09.41.43:397][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(1b).jpg)
+[2016.11.14-09.41.43:403][804]Error: Texture import failed
+[2016.11.14-09.41.44:104][804]LogAssetTools:Warning: Failed to import 'C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(1b).jpg'. Failed to create asset '/Game/Foliage/fzm-Ornamental-Grass-Blade-Texture-_1b_'.
+Please see Output Log for details.
+[2016.11.14-09.41.44:104][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(2a).jpg)
+[2016.11.14-09.41.44:111][804]Error: Texture import failed
+[2016.11.14-09.41.44:576][804]LogAssetTools:Warning: Failed to import 'C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(2a).jpg'. Failed to create asset '/Game/Foliage/fzm-Ornamental-Grass-Blade-Texture-_2a_'.
+Please see Output Log for details.
+[2016.11.14-09.41.44:577][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(2b).jpg)
+[2016.11.14-09.41.44:583][804]Error: Texture import failed
+[2016.11.14-09.41.44:916][804]LogAssetTools:Warning: Failed to import 'C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(2b).jpg'. Failed to create asset '/Game/Foliage/fzm-Ornamental-Grass-Blade-Texture-_2b_'.
+Please see Output Log for details.
+[2016.11.14-09.41.44:917][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(3a).jpg)
+[2016.11.14-09.41.44:925][804]Error: Texture import failed
+[2016.11.14-09.41.45:242][804]LogAssetTools:Warning: Failed to import 'C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(3a).jpg'. Failed to create asset '/Game/Foliage/fzm-Ornamental-Grass-Blade-Texture-_3a_'.
+Please see Output Log for details.
+[2016.11.14-09.41.45:243][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(3b).jpg)
+[2016.11.14-09.41.45:254][804]Error: Texture import failed
+[2016.11.14-09.41.45:503][804]LogAssetTools:Warning: Failed to import 'C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(3b).jpg'. Failed to create asset '/Game/Foliage/fzm-Ornamental-Grass-Blade-Texture-_3b_'.
+Please see Output Log for details.
+[2016.11.14-09.41.45:503][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(4a).jpg)
+[2016.11.14-09.41.45:511][804]Error: Texture import failed
+[2016.11.14-09.41.45:826][804]LogAssetTools:Warning: Failed to import 'C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(4a).jpg'. Failed to create asset '/Game/Foliage/fzm-Ornamental-Grass-Blade-Texture-_4a_'.
+Please see Output Log for details.
+[2016.11.14-09.41.45:827][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(4b).jpg)
+[2016.11.14-09.41.45:836][804]Error: Texture import failed
+[2016.11.14-09.41.46:100][804]LogAssetTools:Warning: Failed to import 'C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(4b).jpg'. Failed to create asset '/Game/Foliage/fzm-Ornamental-Grass-Blade-Texture-_4b_'.
+Please see Output Log for details.
+[2016.11.14-09.41.46:101][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(5a).jpg)
+[2016.11.14-09.41.46:109][804]Error: Texture import failed
+[2016.11.14-09.41.46:407][804]LogAssetTools:Warning: Failed to import 'C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(5a).jpg'. Failed to create asset '/Game/Foliage/fzm-Ornamental-Grass-Blade-Texture-_5a_'.
+Please see Output Log for details.
+[2016.11.14-09.41.46:408][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(5b).jpg)
+[2016.11.14-09.41.46:417][804]Error: Texture import failed
+[2016.11.14-09.41.46:698][804]LogAssetTools:Warning: Failed to import 'C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(5b).jpg'. Failed to create asset '/Game/Foliage/fzm-Ornamental-Grass-Blade-Texture-_5b_'.
+Please see Output Log for details.
+[2016.11.14-09.41.46:699][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(6a).jpg)
+[2016.11.14-09.41.46:705][804]Error: Texture import failed
+[2016.11.14-09.41.46:968][804]LogAssetTools:Warning: Failed to import 'C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(6a).jpg'. Failed to create asset '/Game/Foliage/fzm-Ornamental-Grass-Blade-Texture-_6a_'.
+Please see Output Log for details.
+[2016.11.14-09.41.46:969][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(6b).jpg)
+[2016.11.14-09.41.46:974][804]Error: Texture import failed
+[2016.11.14-09.41.47:289][804]LogAssetTools:Warning: Failed to import 'C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(6b).jpg'. Failed to create asset '/Game/Foliage/fzm-Ornamental-Grass-Blade-Texture-_6b_'.
+Please see Output Log for details.
+[2016.11.14-09.41.47:290][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(7a).jpg)
+[2016.11.14-09.41.47:298][804]Error: Texture import failed
+[2016.11.14-09.41.47:564][804]LogAssetTools:Warning: Failed to import 'C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(7a).jpg'. Failed to create asset '/Game/Foliage/fzm-Ornamental-Grass-Blade-Texture-_7a_'.
+Please see Output Log for details.
+[2016.11.14-09.41.47:565][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(7b).jpg)
+[2016.11.14-09.41.47:574][804]Error: Texture import failed
+[2016.11.14-09.41.47:853][804]LogAssetTools:Warning: Failed to import 'C:\Users\Bill\Desktop\Models and Textures\GrassTextures\fzm-Ornamental-Grass-Blade-Texture-(7b).jpg'. Failed to create asset '/Game/Foliage/fzm-Ornamental-Grass-Blade-Texture-_7b_'.
+Please see Output Log for details.
+[2016.11.14-09.41.47:854][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\grass__10_.png)
+[2016.11.14-09.41.47:880][804]LogTexture:Display: Building textures: grass__10_ (BGRA8)
+[2016.11.14-09.41.47:924][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\grass__12_.png)
+[2016.11.14-09.41.47:933][804]LogTexture:Display: Building textures: grass__12_ (BGRA8)
+[2016.11.14-09.41.47:940][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\grass__13_.png)
+[2016.11.14-09.41.47:945][804]LogTexture:Display: Building textures: grass__13_ (BGRA8)
+[2016.11.14-09.41.47:957][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\grass__14_.png)
+[2016.11.14-09.41.47:971][804]LogTexture:Display: Building textures: grass__14_ (BGRA8)
+[2016.11.14-09.41.47:985][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\grass__15_.png)
+[2016.11.14-09.41.47:994][804]LogTexture:Display: Building textures: grass__15_ (BGRA8)
+[2016.11.14-09.41.48:026][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\grass_grass_0048_02_preview.jpg)
+[2016.11.14-09.41.48:050][804]LogTexture:Display: Building textures: grass_grass_0048_02_preview (AutoDXT)
+[2016.11.14-09.41.48:537][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\grass_PNG385.png)
+[2016.11.14-09.41.48:668][804]LogTexture:Display: Building textures: grass_PNG385 (BGRA8)
+[2016.11.14-09.41.49:007][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\grass_PNG393.png)
+[2016.11.14-09.41.49:085][804]LogTexture:Display: Building textures: grass_PNG393 (BGRA8)
+[2016.11.14-09.41.49:253][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\grass_PNG395.png)
+[2016.11.14-09.41.49:422][804]LogTexture:Display: Building textures: grass_PNG395 (BGRA8)
+[2016.11.14-09.41.49:739][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\grass_PNG396.png)
+[2016.11.14-09.41.49:996][804]LogTexture:Display: Building textures: grass_PNG396 (BGRA8)
+[2016.11.14-09.41.50:391][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\grass_PNG399.png)
+[2016.11.14-09.41.50:400][804]LogTexture:Display: Building textures: grass_PNG399 (BGRA8)
+[2016.11.14-09.41.50:421][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\grass_PNG401.png)
+[2016.11.14-09.41.50:483][804]LogTexture:Display: Building textures: grass_PNG401 (BGRA8)
+[2016.11.14-09.41.50:687][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\grass_PNG404.png)
+[2016.11.14-09.41.50:773][804]LogTexture:Display: Building textures: grass_PNG404 (BGRA8)
+[2016.11.14-09.41.50:932][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\grass_PNG405.png)
+[2016.11.14-09.41.50:941][804]LogTexture:Display: Building textures: grass_PNG405 (BGRA8)
+[2016.11.14-09.41.50:960][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\grass_texture_1_by_jguidac-d5v7opa.jpg)
+[2016.11.14-09.41.51:254][804]LogTexture:Display: Building textures: grass_texture_1_by_jguidac-d5v7opa (AutoDXT)
+[2016.11.14-09.41.56:828][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\grass8.png)
+[2016.11.14-09.41.57:003][804]LogTexture:Display: Building textures: grass8 (BGRA8)
+[2016.11.14-09.41.57:319][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\grass-texture.jpg)
+[2016.11.14-09.41.57:562][804]LogTexture:Display: Building textures: grass-texture (AutoDXT)
+[2016.11.14-09.42.09:366][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\Green-Leaf-Texture-Background-Use-1531715.jpg)
+[2016.11.14-09.42.09:371][804]LogTexture:Display: Building textures: Green-Leaf-Texture-Background-Use-1531715 (BGRA8)
+[2016.11.14-09.42.09:387][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\Leaves0019_26_S.png)
+[2016.11.14-09.42.09:427][804]LogTexture:Display: Building textures: Leaves0019_26_S (BGRA8)
+[2016.11.14-09.42.09:500][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\leaves-texture.jpg)
+[2016.11.14-09.42.09:521][804]LogTexture:Display: Building textures: leaves-texture (BGRA8)
+[2016.11.14-09.42.09:544][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0002_1_S.png)
+[2016.11.14-09.42.09:555][804]LogTexture:Display: Building textures: NaturePlants0002_1_S (BGRA8)
+[2016.11.14-09.42.09:599][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0006_1_S.png)
+[2016.11.14-09.42.09:630][804]LogTexture:Display: Building textures: NaturePlants0006_1_S (AutoDXT)
+[2016.11.14-09.42.10:499][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0010_1_S.png)
+[2016.11.14-09.42.10:514][804]LogTexture:Display: Building textures: NaturePlants0010_1_S (BGRA8)
+[2016.11.14-09.42.10:566][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0011_1_S.png)
+[2016.11.14-09.42.10:579][804]LogTexture:Display: Building textures: NaturePlants0011_1_S (AutoDXT)
+[2016.11.14-09.42.11:131][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0013_1_S.png)
+[2016.11.14-09.42.11:150][804]LogTexture:Display: Building textures: NaturePlants0013_1_S (AutoDXT)
+[2016.11.14-09.42.11:934][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0021_1_S.png)
+[2016.11.14-09.42.11:965][804]LogTexture:Display: Building textures: NaturePlants0021_1_S (BGRA8)
+[2016.11.14-09.42.12:053][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0023_1_S.png)
+[2016.11.14-09.42.12:083][804]LogTexture:Display: Building textures: NaturePlants0023_1_S (BGRA8)
+[2016.11.14-09.42.12:123][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0028_1_S.png)
+[2016.11.14-09.42.12:139][804]LogTexture:Display: Building textures: NaturePlants0028_1_S (BGRA8)
+[2016.11.14-09.42.12:187][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0029_1_S.png)
+[2016.11.14-09.42.12:199][804]LogTexture:Display: Building textures: NaturePlants0029_1_S (BGRA8)
+[2016.11.14-09.42.12:243][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0030_1_S.png)
+[2016.11.14-09.42.12:251][804]LogTexture:Display: Building textures: NaturePlants0030_1_S (BGRA8)
+[2016.11.14-09.42.12:284][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0031_1_S.png)
+[2016.11.14-09.42.12:313][804]LogTexture:Display: Building textures: NaturePlants0031_1_S (BGRA8)
+[2016.11.14-09.42.12:402][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0032_1_S.png)
+[2016.11.14-09.42.12:415][804]LogTexture:Display: Building textures: NaturePlants0032_1_S (BGRA8)
+[2016.11.14-09.42.12:460][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0033_1_S.png)
+[2016.11.14-09.42.12:474][804]LogTexture:Display: Building textures: NaturePlants0033_1_S (BGRA8)
+[2016.11.14-09.42.12:528][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0033_4_S.jpg)
+[2016.11.14-09.42.12:551][804]LogTexture:Display: Building textures: NaturePlants0033_4_S (BGRA8)
+[2016.11.14-09.42.12:606][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0033_5_S.png)
+[2016.11.14-09.42.12:622][804]LogTexture:Display: Building textures: NaturePlants0033_5_S (AutoDXT)
+[2016.11.14-09.42.13:362][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0033_9_S.png)
+[2016.11.14-09.42.13:380][804]LogTexture:Display: Building textures: NaturePlants0033_9_S (BGRA8)
+[2016.11.14-09.42.13:473][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0034_1_S.png)
+[2016.11.14-09.42.13:502][804]LogTexture:Display: Building textures: NaturePlants0034_1_S (BGRA8)
+[2016.11.14-09.42.13:558][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Bill\Desktop\Models and Textures\GrassTextures\NaturePlants0035_1_S.png)
+[2016.11.14-09.42.13:570][804]LogTexture:Display: Building textures: NaturePlants0035_1_S (AutoDXT)
+[2016.11.14-09.42.18:038][254]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.14-09.42.22:056][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0053_1_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0053_1_S.uasset" SILENT=true
+[2016.11.14-09.42.22:170][648]LogSavePackage: Save=113.11ms
+[2016.11.14-09.42.22:170][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0053_1_S7496D8FA4497F2887E6AD4B1BDEC5FE1.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0053_1_S.uasset'
+[2016.11.14-09.42.22:173][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0053_1_S.uasset
+[2016.11.14-09.42.22:183][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/Ornamental-Grass-Texture-41" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Ornamental-Grass-Texture-41.uasset" SILENT=true
+[2016.11.14-09.42.22:537][648]LogSavePackage: Save=352.72ms
+[2016.11.14-09.42.22:537][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/Ornamental-Grass-Texture-41367FE1BC447878C0FE5D759D8E3F1725.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Ornamental-Grass-Texture-41.uasset'
+[2016.11.14-09.42.22:539][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Ornamental-Grass-Texture-41.uasset
+[2016.11.14-09.42.22:754][648]LogSavePackage: Save=188.86ms
+[2016.11.14-09.42.22:754][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/Ornamental-Grass-Texture-41-Alpha7DDD7EE44B874C65031EFA9A09DB89AF.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Ornamental-Grass-Texture-41-Alpha.uasset'
+[2016.11.14-09.42.22:756][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Ornamental-Grass-Texture-41-Alpha.uasset
+[2016.11.14-09.42.22:951][648]LogSavePackage: Save=180.73ms
+[2016.11.14-09.42.22:951][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/seamless_tileable_grass_texture_by_demolitiondan-d4u41a961AE463A493EB9CBB7957F8CF0BFA496.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/seamless_tileable_grass_texture_by_demolitiondan-d4u41a9.uasset'
+[2016.11.14-09.42.22:953][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/seamless_tileable_grass_texture_by_demolitiondan-d4u41a9.uasset
+[2016.11.14-09.42.22:963][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/seamless-grass-texture-2" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/seamless-grass-texture-2.uasset" SILENT=true
+[2016.11.14-09.42.23:152][648]LogSavePackage: Save=174.49ms
+[2016.11.14-09.42.23:152][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/seamless-grass-texture-24D2D9A3940722EA350A4BEA5F8B8352F.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/seamless-grass-texture-2.uasset'
+[2016.11.14-09.42.23:155][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/seamless-grass-texture-2.uasset
+[2016.11.14-09.42.23:165][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/tex_grass_001" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/tex_grass_001.uasset" SILENT=true
+[2016.11.14-09.42.24:041][648]LogSavePackage: Save=854.69ms
+[2016.11.14-09.42.24:041][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/tex_grass_0012D7788614596A4E20B14498F100ABCC3.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/tex_grass_001.uasset'
+[2016.11.14-09.42.24:043][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/tex_grass_001.uasset
+[2016.11.14-09.42.24:052][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/4396217-213470-leaf-texture" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/4396217-213470-leaf-texture.uasset" SILENT=true
+[2016.11.14-09.42.24:099][648]LogSavePackage: Save=45.23ms
+[2016.11.14-09.42.24:099][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/4396217-213470-leaf-texture636B35CF4555D8D5A5EDF88132453690.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/4396217-213470-leaf-texture.uasset'
+[2016.11.14-09.42.24:101][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/4396217-213470-leaf-texture.uasset
+[2016.11.14-09.42.24:111][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/Branches0028_1_M" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Branches0028_1_M.uasset" SILENT=true
+[2016.11.14-09.42.24:203][648]LogSavePackage: Save=89.97ms
+[2016.11.14-09.42.24:203][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/Branches0028_1_M3C9D424948F0720B829ACEB069B8EF32.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Branches0028_1_M.uasset'
+[2016.11.14-09.42.24:205][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Branches0028_1_M.uasset
+[2016.11.14-09.42.24:215][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/Branches0029_1_M" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Branches0029_1_M.uasset" SILENT=true
+[2016.11.14-09.42.24:301][648]LogSavePackage: Save=83.80ms
+[2016.11.14-09.42.24:301][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/Branches0029_1_M9FE1E4C04B4E602570104ABB97AA1481.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Branches0029_1_M.uasset'
+[2016.11.14-09.42.24:303][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Branches0029_1_M.uasset
+[2016.11.14-09.42.24:311][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/Branches0032_1_M" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Branches0032_1_M.uasset" SILENT=true
+[2016.11.14-09.42.24:376][648]LogSavePackage: Save=64.54ms
+[2016.11.14-09.42.24:376][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/Branches0032_1_M44A0AF494AF2539C95F85D832381AC2F.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Branches0032_1_M.uasset'
+[2016.11.14-09.42.24:379][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Branches0032_1_M.uasset
+[2016.11.14-09.42.24:384][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/Branches0034_1_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Branches0034_1_S.uasset" SILENT=true
+[2016.11.14-09.42.24:412][648]LogSavePackage: Save=26.90ms
+[2016.11.14-09.42.24:412][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/Branches0034_1_SE949021544709C9B182667851DE27DD7.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Branches0034_1_S.uasset'
+[2016.11.14-09.42.24:415][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Branches0034_1_S.uasset
+[2016.11.14-09.42.24:423][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/fst_6886fy74d05" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/fst_6886fy74d05.uasset" SILENT=true
+[2016.11.14-09.42.24:486][648]LogSavePackage: Save=62.09ms
+[2016.11.14-09.42.24:486][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/fst_6886fy74d05FF747EA04480A80B095C66801CB2BFB2.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/fst_6886fy74d05.uasset'
+[2016.11.14-09.42.24:488][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/fst_6886fy74d05.uasset
+[2016.11.14-09.42.24:497][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/grass__10_" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass__10_.uasset" SILENT=true
+[2016.11.14-09.42.24:543][648]LogSavePackage: Save=44.50ms
+[2016.11.14-09.42.24:543][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/grass__10_C20123A3484971E29952FD91DF375617.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass__10_.uasset'
+[2016.11.14-09.42.24:545][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass__10_.uasset
+[2016.11.14-09.42.24:552][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/grass__12_" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass__12_.uasset" SILENT=true
+[2016.11.14-09.42.24:569][648]LogSavePackage: Save=15.63ms
+[2016.11.14-09.42.24:569][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/grass__12_1DA82F8F405B96E91D8D90947673CB81.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass__12_.uasset'
+[2016.11.14-09.42.24:571][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass__12_.uasset
+[2016.11.14-09.42.24:581][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/grass__13_" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass__13_.uasset" SILENT=true
+[2016.11.14-09.42.24:604][648]LogSavePackage: Save=21.61ms
+[2016.11.14-09.42.24:604][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/grass__13_E7FF1F04492D24908E7B4BB75E915B56.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass__13_.uasset'
+[2016.11.14-09.42.24:606][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass__13_.uasset
+[2016.11.14-09.42.24:612][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/grass__14_" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass__14_.uasset" SILENT=true
+[2016.11.14-09.42.24:633][648]LogSavePackage: Save=19.59ms
+[2016.11.14-09.42.24:633][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/grass__14_E47F9BE44AF5BA0A1B51F38CFE43CF52.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass__14_.uasset'
+[2016.11.14-09.42.24:635][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass__14_.uasset
+[2016.11.14-09.42.24:645][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/grass__15_" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass__15_.uasset" SILENT=true
+[2016.11.14-09.42.24:688][648]LogSavePackage: Save=41.75ms
+[2016.11.14-09.42.24:688][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/grass__15_97588D264BF0A4F7052591BA376B7478.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass__15_.uasset'
+[2016.11.14-09.42.24:691][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass__15_.uasset
+[2016.11.14-09.42.24:701][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/grass_grass_0048_02_preview" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_grass_0048_02_preview.uasset" SILENT=true
+[2016.11.14-09.42.24:776][648]LogSavePackage: Save=73.68ms
+[2016.11.14-09.42.24:776][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/grass_grass_0048_02_previewFED7E8E0426BF786F07DC3AC39C53244.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_grass_0048_02_preview.uasset'
+[2016.11.14-09.42.24:778][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_grass_0048_02_preview.uasset
+[2016.11.14-09.42.24:783][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/grass_PNG385" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG385.uasset" SILENT=true
+[2016.11.14-09.42.25:225][648]LogSavePackage: Save=439.74ms
+[2016.11.14-09.42.25:225][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/grass_PNG385B038661D4FA91CBF226A12A621727DB8.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG385.uasset'
+[2016.11.14-09.42.25:227][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG385.uasset
+[2016.11.14-09.42.25:233][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/grass_PNG393" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG393.uasset" SILENT=true
+[2016.11.14-09.42.25:508][648]LogSavePackage: Save=273.57ms
+[2016.11.14-09.42.25:508][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/grass_PNG393777C3339406BC6936BC423ADF9CE7F6F.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG393.uasset'
+[2016.11.14-09.42.25:510][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG393.uasset
+[2016.11.14-09.42.25:518][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/grass_PNG395" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG395.uasset" SILENT=true
+[2016.11.14-09.42.26:024][648]LogSavePackage: Save=504.49ms
+[2016.11.14-09.42.26:025][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/grass_PNG395464B1A154F0EFA19B28ACFBB2C3367D6.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG395.uasset'
+[2016.11.14-09.42.26:027][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG395.uasset
+[2016.11.14-09.42.26:033][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/grass_PNG396" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG396.uasset" SILENT=true
+[2016.11.14-09.42.26:696][648]LogSavePackage: Save=661.95ms
+[2016.11.14-09.42.26:696][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/grass_PNG3960F92A5CB49D0A95E2BF5CDBEF86118A9.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG396.uasset'
+[2016.11.14-09.42.26:699][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG396.uasset
+[2016.11.14-09.42.26:705][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/grass_PNG399" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG399.uasset" SILENT=true
+[2016.11.14-09.42.26:743][648]LogSavePackage: Save=36.94ms
+[2016.11.14-09.42.26:743][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/grass_PNG3994112D03E49E3A9D652D8418509AD49EA.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG399.uasset'
+[2016.11.14-09.42.26:746][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG399.uasset
+[2016.11.14-09.42.26:752][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/grass_PNG401" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG401.uasset" SILENT=true
+[2016.11.14-09.42.26:885][648]LogSavePackage: Save=132.12ms
+[2016.11.14-09.42.26:885][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/grass_PNG401D12634DD4D5221B3A29EEE84187DDBF8.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG401.uasset'
+[2016.11.14-09.42.26:887][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG401.uasset
+[2016.11.14-09.42.26:897][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/grass_PNG404" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG404.uasset" SILENT=true
+[2016.11.14-09.42.27:128][648]LogSavePackage: Save=228.68ms
+[2016.11.14-09.42.27:128][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/grass_PNG4046C7D32414DB4A86FEEF178B6F28D22C2.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG404.uasset'
+[2016.11.14-09.42.27:130][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG404.uasset
+[2016.11.14-09.42.27:138][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/grass_PNG405" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG405.uasset" SILENT=true
+[2016.11.14-09.42.27:169][648]LogSavePackage: Save=29.43ms
+[2016.11.14-09.42.27:169][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/grass_PNG4058121E4FF4EE56A3A4C4E949FDDDFA4ED.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG405.uasset'
+[2016.11.14-09.42.27:171][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_PNG405.uasset
+[2016.11.14-09.42.27:905][648]LogSavePackage: Save=719.63ms
+[2016.11.14-09.42.27:905][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/grass_texture_1_by_jguidac-d5v7opa62B928EC4EC984D464948682ED3BDBDF.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_texture_1_by_jguidac-d5v7opa.uasset'
+[2016.11.14-09.42.27:907][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass_texture_1_by_jguidac-d5v7opa.uasset
+[2016.11.14-09.42.27:915][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/grass8" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass8.uasset" SILENT=true
+[2016.11.14-09.42.28:379][648]LogSavePackage: Save=462.79ms
+[2016.11.14-09.42.28:379][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/grass8BBF0991444B920DF8C2E43B93BABD65B.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass8.uasset'
+[2016.11.14-09.42.28:381][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass8.uasset
+[2016.11.14-09.42.28:389][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/grass-texture" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass-texture.uasset" SILENT=true
+[2016.11.14-09.42.29:921][648]LogSavePackage: Save=1530.79ms
+[2016.11.14-09.42.29:921][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/grass-texture7AB8FC0B49E258BA1CC2D1965001866A.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass-texture.uasset'
+[2016.11.14-09.42.29:923][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/grass-texture.uasset
+[2016.11.14-09.42.29:979][648]LogSavePackage: Save=41.63ms
+[2016.11.14-09.42.29:979][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/Green-Leaf-Texture-Background-Use-15317151A826CAB477BC987D6D9088C4F01B36C.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Green-Leaf-Texture-Background-Use-1531715.uasset'
+[2016.11.14-09.42.29:982][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Green-Leaf-Texture-Background-Use-1531715.uasset
+[2016.11.14-09.42.29:992][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/Leaves0019_26_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Leaves0019_26_S.uasset" SILENT=true
+[2016.11.14-09.42.30:102][648]LogSavePackage: Save=108.37ms
+[2016.11.14-09.42.30:102][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/Leaves0019_26_S9C5E10A34906D1D3A2B0AFB19437F156.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Leaves0019_26_S.uasset'
+[2016.11.14-09.42.30:104][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/Leaves0019_26_S.uasset
+[2016.11.14-09.42.30:114][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/leaves-texture" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/leaves-texture.uasset" SILENT=true
+[2016.11.14-09.42.30:185][648]LogSavePackage: Save=69.34ms
+[2016.11.14-09.42.30:185][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/leaves-texture261411004E7C29A65DDDF1B9A0B242FE.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/leaves-texture.uasset'
+[2016.11.14-09.42.30:187][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/leaves-texture.uasset
+[2016.11.14-09.42.30:194][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0002_1_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0002_1_S.uasset" SILENT=true
+[2016.11.14-09.42.30:229][648]LogSavePackage: Save=34.26ms
+[2016.11.14-09.42.30:230][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0002_1_S229B10194BA46BF3F9DC69939BB4FFDC.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0002_1_S.uasset'
+[2016.11.14-09.42.30:232][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0002_1_S.uasset
+[2016.11.14-09.42.30:241][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0006_1_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0006_1_S.uasset" SILENT=true
+[2016.11.14-09.42.30:313][648]LogSavePackage: Save=70.63ms
+[2016.11.14-09.42.30:313][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0006_1_S21AB80644A64988A67F304992E688894.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0006_1_S.uasset'
+[2016.11.14-09.42.30:315][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0006_1_S.uasset
+[2016.11.14-09.42.30:323][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0010_1_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0010_1_S.uasset" SILENT=true
+[2016.11.14-09.42.30:372][648]LogSavePackage: Save=47.38ms
+[2016.11.14-09.42.30:372][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0010_1_S0541866742EE4A15A0016EA52A8E04DA.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0010_1_S.uasset'
+[2016.11.14-09.42.30:374][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0010_1_S.uasset
+[2016.11.14-09.42.30:382][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0011_1_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0011_1_S.uasset" SILENT=true
+[2016.11.14-09.42.30:820][648]LogSavePackage: Save=88.35ms
+[2016.11.14-09.42.30:820][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0011_1_SA523778641F402B06A9F5EA168DB6C1F.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0011_1_S.uasset'
+[2016.11.14-09.42.30:823][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0011_1_S.uasset
+[2016.11.14-09.42.30:832][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0013_1_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0013_1_S.uasset" SILENT=true
+[2016.11.14-09.42.30:888][648]LogSavePackage: Save=54.30ms
+[2016.11.14-09.42.30:888][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0013_1_SFE7D19F147760EFA38AC85B35A6A5481.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0013_1_S.uasset'
+[2016.11.14-09.42.30:890][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0013_1_S.uasset
+[2016.11.14-09.42.30:900][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0021_1_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0021_1_S.uasset" SILENT=true
+[2016.11.14-09.42.31:006][648]LogSavePackage: Save=104.16ms
+[2016.11.14-09.42.31:006][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0021_1_S62BEB99B46F20BDEF24310AFCDD2B1FC.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0021_1_S.uasset'
+[2016.11.14-09.42.31:007][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0021_1_S.uasset
+[2016.11.14-09.42.31:013][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0023_1_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0023_1_S.uasset" SILENT=true
+[2016.11.14-09.42.31:085][648]LogSavePackage: Save=70.55ms
+[2016.11.14-09.42.31:085][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0023_1_S1D5B1FA54B9DAB7E7A21CBB2FFFE5E1A.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0023_1_S.uasset'
+[2016.11.14-09.42.31:087][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0023_1_S.uasset
+[2016.11.14-09.42.31:095][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0028_1_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0028_1_S.uasset" SILENT=true
+[2016.11.14-09.42.31:170][648]LogSavePackage: Save=74.21ms
+[2016.11.14-09.42.31:170][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0028_1_SBF3B77E149897CF52DB82789F82F4D37.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0028_1_S.uasset'
+[2016.11.14-09.42.31:172][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0028_1_S.uasset
+[2016.11.14-09.42.31:178][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0029_1_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0029_1_S.uasset" SILENT=true
+[2016.11.14-09.42.31:214][648]LogSavePackage: Save=34.70ms
+[2016.11.14-09.42.31:214][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0029_1_S0DD4C840404D34E7642535B1F4132EFA.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0029_1_S.uasset'
+[2016.11.14-09.42.31:216][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0029_1_S.uasset
+[2016.11.14-09.42.31:221][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0030_1_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0030_1_S.uasset" SILENT=true
+[2016.11.14-09.42.31:245][648]LogSavePackage: Save=22.28ms
+[2016.11.14-09.42.31:245][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0030_1_S00E4599B49758808C204F482613F0213.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0030_1_S.uasset'
+[2016.11.14-09.42.31:247][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0030_1_S.uasset
+[2016.11.14-09.42.31:257][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0031_1_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0031_1_S.uasset" SILENT=true
+[2016.11.14-09.42.31:330][648]LogSavePackage: Save=71.83ms
+[2016.11.14-09.42.31:330][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0031_1_S574D4F954FA9AF935F3B2EBB12915291.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0031_1_S.uasset'
+[2016.11.14-09.42.31:332][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0031_1_S.uasset
+[2016.11.14-09.42.31:339][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0032_1_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0032_1_S.uasset" SILENT=true
+[2016.11.14-09.42.31:379][648]LogSavePackage: Save=39.14ms
+[2016.11.14-09.42.31:379][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0032_1_S0761DFFC4C2FA416C30FDCAACA006463.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0032_1_S.uasset'
+[2016.11.14-09.42.31:396][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0032_1_S.uasset
+[2016.11.14-09.42.31:403][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0033_1_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0033_1_S.uasset" SILENT=true
+[2016.11.14-09.42.31:444][648]LogSavePackage: Save=39.05ms
+[2016.11.14-09.42.31:444][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0033_1_S01CAC0524145977E80FAB1B3FB491837.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0033_1_S.uasset'
+[2016.11.14-09.42.31:446][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0033_1_S.uasset
+[2016.11.14-09.42.31:453][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0033_4_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0033_4_S.uasset" SILENT=true
+[2016.11.14-09.42.31:549][648]LogSavePackage: Save=95.10ms
+[2016.11.14-09.42.31:549][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0033_4_SE0641E4C46E985184FA6C9A455A8740D.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0033_4_S.uasset'
+[2016.11.14-09.42.31:552][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0033_4_S.uasset
+[2016.11.14-09.42.31:560][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0033_5_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0033_5_S.uasset" SILENT=true
+[2016.11.14-09.42.31:610][648]LogSavePackage: Save=47.23ms
+[2016.11.14-09.42.31:610][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0033_5_SFD4BC10C471A890AFA08A8B6164062B5.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0033_5_S.uasset'
+[2016.11.14-09.42.31:612][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0033_5_S.uasset
+[2016.11.14-09.42.31:620][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0033_9_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0033_9_S.uasset" SILENT=true
+[2016.11.14-09.42.31:668][648]LogSavePackage: Save=46.59ms
+[2016.11.14-09.42.31:668][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0033_9_S42D637CE48C4966F2032FE99466D5A05.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0033_9_S.uasset'
+[2016.11.14-09.42.31:670][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0033_9_S.uasset
+[2016.11.14-09.42.31:677][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0034_1_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0034_1_S.uasset" SILENT=true
+[2016.11.14-09.42.31:725][648]LogSavePackage: Save=46.26ms
+[2016.11.14-09.42.31:725][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0034_1_SECEE79364A0CA7C48D178AB484C8BDBA.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0034_1_S.uasset'
+[2016.11.14-09.42.31:727][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0034_1_S.uasset
+[2016.11.14-09.42.31:734][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Foliage/NaturePlants0035_1_S" FILE="../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0035_1_S.uasset" SILENT=true
+[2016.11.14-09.42.31:766][648]LogSavePackage: Save=31.10ms
+[2016.11.14-09.42.31:766][648]LogSavePackage: Moving '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/NaturePlants0035_1_SE12BF1AA4620BD62FFF7998E265A0FD7.tmp' to '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0035_1_S.uasset'
+[2016.11.14-09.42.31:769][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Foliage/NaturePlants0035_1_S.uasset
+[2016.11.14-09.42.34:070][913]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.14-09.42.34:235][914]Cmd: QUIT_EDITOR
+[2016.11.14-09.42.34:282][914]LogExit: Preparing to exit.
+[2016.11.14-09.42.35:241][914]LogDirectoryWatcher: A directory notification for 'C:/Users/Bill/Desktop/The-Deep-West/TestLevel/Content/' was aborted.
+[2016.11.14-09.42.35:256][914]LogExit: Editor shut down
+[2016.11.14-09.42.35:256][914]LogExit: Transaction tracking system shut down
+[2016.11.14-09.42.35:374][914]LogObj: Freed 0b from 0 cluster array pools.
+[2016.11.14-09.42.35:375][914]LogExit: Object subsystem successfully closed.
+[2016.11.14-09.42.35:392][914]LogD3D11RHI: Shutdown
+[2016.11.14-09.42.35:392][914]LogD3D11RHI: CleanupD3DDevice
+[2016.11.14-09.42.35:509][914]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.14-09.42.35:520][914]LogModuleManager: Shutting down and abandoning module TextureEditor (234)
+[2016.11.14-09.42.35:520][914]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (233)
+[2016.11.14-09.42.35:520][914]LogModuleManager: Shutting down and abandoning module CrashTracker (232)
+[2016.11.14-09.42.35:520][914]LogModuleManager: Shutting down and abandoning module WidgetCarousel (231)
+[2016.11.14-09.42.35:520][914]LogModuleManager: Shutting down and abandoning module AddContentDialog (230)
+[2016.11.14-09.42.35:520][914]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.11.14-09.42.35:527][914]LogModuleManager: Shutting down and abandoning module GameplayTags (229)
+[2016.11.14-09.42.35:527][914]LogModuleManager: Shutting down and abandoning module EditorWidgets (228)
+[2016.11.14-09.42.35:527][914]LogModuleManager: Shutting down and abandoning module CollectionManager (227)
+[2016.11.14-09.42.35:527][914]LogDirectoryWatcher: A directory notification for 'C:/Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Collections/' was aborted.
+[2016.11.14-09.42.35:528][914]LogDirectoryWatcher: A directory notification for 'C:/Users/Bill/Desktop/The-Deep-West/TestLevel/Content/Developers/Bill/Collections/' was aborted.
+[2016.11.14-09.42.35:528][914]LogDirectoryWatcher: A directory notification for 'C:/Users/Bill/Desktop/The-Deep-West/TestLevel/Saved/Collections/' was aborted.
+[2016.11.14-09.42.35:528][914]LogModuleManager: Shutting down and abandoning module SceneOutliner (226)
+[2016.11.14-09.42.35:528][914]LogModuleManager: Shutting down and abandoning module StatsViewer (225)
+[2016.11.14-09.42.35:528][914]LogModuleManager: Shutting down and abandoning module FoliageEdit (224)
+[2016.11.14-09.42.35:528][914]LogModuleManager: Shutting down and abandoning module LandscapeEditor (223)
+[2016.11.14-09.42.35:528][914]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (222)
+[2016.11.14-09.42.35:528][914]LogModuleManager: Shutting down and abandoning module ActorPickerMode (221)
+[2016.11.14-09.42.35:528][914]LogModuleManager: Shutting down and abandoning module GeometryMode (220)
+[2016.11.14-09.42.35:528][914]LogModuleManager: Shutting down and abandoning module TextureAlignMode (219)
+[2016.11.14-09.42.35:528][914]LogModuleManager: Shutting down and abandoning module BspMode (218)
+[2016.11.14-09.42.35:528][914]LogModuleManager: Shutting down and abandoning module HardwareSurvey (217)
+[2016.11.14-09.42.35:528][914]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (216)
+[2016.11.14-09.42.35:528][914]LogModuleManager: Shutting down and abandoning module SequenceRecorder (215)
+[2016.11.14-09.42.35:528][914]LogModuleManager: Shutting down and abandoning module AutomationWorker (214)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (213)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module PlacementMode (212)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (211)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (210)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (209)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (208)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (207)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module Media (206)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (205)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (204)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module CharacterAI (203)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module SmartSnapping (202)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module SessionServices (201)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module ViewportSnapping (200)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module ViewportInteraction (199)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module LogVisualizer (198)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (197)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module IntroTutorials (196)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (195)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (194)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (193)
+[2016.11.14-09.42.35:529][914]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (192)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (191)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (190)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (189)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module NiagaraEditor (188)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module MergeActors (187)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module SizeMap (186)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module TreeMap (185)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module ReferenceViewer (184)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module LocalizationService (183)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (182)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module HardwareTargeting (181)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (180)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module UndoHistory (179)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module UserFeedback (178)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module XmlParser (177)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module Blutility (176)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (175)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (174)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module InputBindingEditor (173)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (172)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module SettingsEditor (171)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module ProjectLauncher (170)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module SessionFrontend (169)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module ProfilerClient (168)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (167)
+[2016.11.14-09.42.36:070][914]LogModuleManager: Shutting down and abandoning module DeviceManager (166)
+[2016.11.14-09.42.36:112][914]LogModuleManager: Shutting down and abandoning module AutomationController (165)
+[2016.11.14-09.42.36:112][914]LogModuleManager: Shutting down and abandoning module AutomationWindow (164)
+[2016.11.14-09.42.36:112][914]LogModuleManager: Shutting down and abandoning module Layers (163)
+[2016.11.14-09.42.36:112][914]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (162)
+[2016.11.14-09.42.36:112][914]LogModuleManager: Shutting down and abandoning module DetailCustomizations (161)
+[2016.11.14-09.42.36:112][914]LogModuleManager: Shutting down and abandoning module PackagesDialog (160)
+[2016.11.14-09.42.36:112][914]LogModuleManager: Shutting down and abandoning module AnimGraph (159)
+[2016.11.14-09.42.36:112][914]LogModuleManager: Shutting down and abandoning module Persona (158)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module Kismet (157)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module GraphEditor (156)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module ClassViewer (155)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module Toolbox (154)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module ModuleUI (153)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module MovieSceneTools (152)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module OutputLog (151)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module GammaUI (150)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module Documentation (149)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module Niagara (148)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (147)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module AnalyticsET (146)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module PortalServices (145)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module PortalRpc (144)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module MessagingRpc (143)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module GameplayDebugger (142)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module AITestSuite (141)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module AIModule (140)
+[2016.11.14-09.42.36:113][914]LogModuleManager: Shutting down and abandoning module ProfilerService (139)
+[2016.11.14-09.42.36:245][914]LogModuleManager: Shutting down and abandoning module TaskGraph (138)
+[2016.11.14-09.42.36:245][914]LogModuleManager: Shutting down and abandoning module SlateRemote (137)
+[2016.11.14-09.42.36:245][914]LogModuleManager: Shutting down and abandoning module SteamVRController (136)
+[2016.11.14-09.42.36:245][914]LogModuleManager: Shutting down and abandoning module SteamVR (135)
+[2016.11.14-09.42.36:245][914]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (134)
+[2016.11.14-09.42.36:245][914]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (133)
+[2016.11.14-09.42.36:245][914]LogModuleManager: Shutting down and abandoning module OculusLibrary (132)
+[2016.11.14-09.42.36:245][914]LogModuleManager: Shutting down and abandoning module OculusInput (131)
+[2016.11.14-09.42.36:245][914]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (130)
+[2016.11.14-09.42.36:245][914]LogModuleManager: Shutting down and abandoning module CableComponent (129)
+[2016.11.14-09.42.36:245][914]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
+[2016.11.14-09.42.36:245][914]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (126)
+[2016.11.14-09.42.36:246][914]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
+[2016.11.14-09.42.36:246][914]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
+[2016.11.14-09.42.36:246][914]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
+[2016.11.14-09.42.36:246][914]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
+[2016.11.14-09.42.36:246][914]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
+[2016.11.14-09.42.36:246][914]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
+[2016.11.14-09.42.36:246][914]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
+[2016.11.14-09.42.36:246][914]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
+[2016.11.14-09.42.36:246][914]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
+[2016.11.14-09.42.36:246][914]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
+[2016.11.14-09.42.36:246][914]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
+[2016.11.14-09.42.36:246][914]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
+[2016.11.14-09.42.36:246][914]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
+[2016.11.14-09.42.36:246][914]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
+[2016.11.14-09.42.36:246][914]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2016.11.14-09.42.36:246][914]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2016.11.14-09.42.36:246][914]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2016.11.14-09.42.36:247][914]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2016.11.14-09.42.36:247][914]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2016.11.14-09.42.36:247][914]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2016.11.14-09.42.36:247][914]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2016.11.14-09.42.36:247][914]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2016.11.14-09.42.36:247][914]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
+[2016.11.14-09.42.36:247][914]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
+[2016.11.14-09.42.36:247][914]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2016.11.14-09.42.36:248][914]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2016.11.14-09.42.36:248][914]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2016.11.14-09.42.36:250][914]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
+[2016.11.14-09.42.36:252][914]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
+[2016.11.14-09.42.36:252][914]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2016.11.14-09.42.36:352][914]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
+[2016.11.14-09.42.36:452][914]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.11.14-09.42.36:452][914]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.11.14-09.42.36:452][914]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.11.14-09.42.36:452][914]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2016.11.14-09.42.36:453][914]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2016.11.14-09.42.36:453][914]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2016.11.14-09.42.36:453][914]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2016.11.14-09.42.36:453][914]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.11.14-09.42.36:453][914]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.11.14-09.42.36:453][914]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.11.14-09.42.36:453][914]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.11.14-09.42.36:453][914]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.11.14-09.42.36:453][914]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.11.14-09.42.36:453][914]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.11.14-09.42.36:453][914]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.11.14-09.42.36:454][914]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.11.14-09.42.36:454][914]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.11.14-09.42.36:454][914]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.11.14-09.42.36:454][914]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.11.14-09.42.36:454][914]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.11.14-09.42.36:454][914]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.11.14-09.42.36:454][914]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.11.14-09.42.36:461][914]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.11.14-09.42.36:461][914]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.11.14-09.42.36:461][914]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.11.14-09.42.36:461][914]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2016.11.14-09.42.36:461][914]LogModuleManager: Shutting down and abandoning module Core (67)
+[2016.11.14-09.42.36:461][914]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2016.11.14-09.42.36:461][914]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.11.14-09.42.36:461][914]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Bill/Desktop/The-Deep-West/TestLevel/Content/' was aborted.
+[2016.11.14-09.42.36:462][914]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.11.14-09.42.36:463][914]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2016.11.14-09.42.36:560][914]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2016.11.14-09.42.36:560][914]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2016.11.14-09.42.36:560][914]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2016.11.14-09.42.36:560][914]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2016.11.14-09.42.36:741][914]LogDerivedDataCache: Shutdown
+[2016.11.14-09.42.36:741][914]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2016.11.14-09.42.36:741][914]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.11.14-09.42.36:742][914]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.11.14-09.42.36:743][914]LogOnline:Display: Unloading online subsystem: NULL
+[2016.11.14-09.42.36:743][914]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.11.14-09.42.36:743][914]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.11.14-09.42.36:743][914]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B68D07570-4C9B-A814-64E1-698338905963%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.1-3142249%2B%2B%2BUE4%2BRelease-4.13&UserID=faa1d9824ef862064067258dd56d8f28%7C481305e73ad443c5853684f63ca46743%7C0579ea38-b969-455d-8a3c-84f40a55b2fb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.11.14-09.42.36:748][914]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.11.14-09.42.36:748][914]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.14-09.42.36:748][914]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.14-09.42.36:748][914]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.14-09.42.36:748][914]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.14-09.42.36:751][914]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.14-09.42.36:751][914]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.14-09.42.36:751][914]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.14-09.42.36:751][914]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.14-09.42.36:751][914]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.14-09.42.36:751][914]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.14-09.42.36:751][914]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.14-09.42.36:751][914]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.14-09.42.36:751][914]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.14-09.42.36:751][914]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.14-09.42.36:755][914]LogExit: Exiting.
+[2016.11.14-09.42.36:759][914]Log file closed, 11/14/16 20:42:36
